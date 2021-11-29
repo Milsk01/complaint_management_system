@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MainPanel">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="-11" width="429" height="566"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <foreground color="-6710887"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="936c" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6710887"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="53dc8" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-1"/>
+              <focusable value="false"/>
+              <minimumSize width="30" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="30" height="60"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="60895" class="javax.swing.JLabel" binding="loginLabel">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <background color="-13976677"/>
+                  <font name="JetBrains Mono" size="28" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <minimumSize width="100" height="38"/>
+                  <opaque value="true"/>
+                  <preferredSize width="170" height="50"/>
+                  <text value="Login"/>
+                </properties>
+              </component>
+              <component id="fc4d0" class="javax.swing.JLabel" binding="registerLabel" default-binding="true">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <background color="-13976677"/>
+                  <font name="JetBrains Mono" size="28" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <opaque value="true"/>
+                  <preferredSize width="170" height="50"/>
+                  <text value="Register"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="3b4a2" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1181c" binding="panel2" layout-manager="FormLayout">
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <card name="login_details"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-1"/>
+                  <opaque value="false"/>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="83c69" class="javax.swing.JTextField" binding="passwordTextField" default-binding="true">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms top="0" left="40" bottom="0" right="40" defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <preferredSize width="69" height="40"/>
+                      <text value="password"/>
+                    </properties>
+                  </component>
+                  <component id="e36f6" class="javax.swing.JTextField" binding="usernameTextField" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms top="0" left="40" bottom="0" right="40" defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <margin top="2" left="6" bottom="2" right="6"/>
+                      <minimumSize width="49" height="50"/>
+                      <preferredSize width="70" height="40"/>
+                      <text value="username"/>
+                    </properties>
+                  </component>
+                  <component id="f205" class="javax.swing.JButton" binding="button1" default-binding="true">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="Button"/>
+                    </properties>
+                  </component>
+                  <grid id="aa24" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="10"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                  <grid id="d6a94" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <opaque value="false"/>
+                      <preferredSize width="24" height="50"/>
+                    </properties>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
