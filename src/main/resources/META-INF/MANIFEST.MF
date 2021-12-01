@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.company.MainPanel
+Class-Path: spring-beans-5.3.13.jar spring-expression-5.3.13.jar spring-
+ core-5.3.13.jar commons-logging-1.2.jar forms-1.0.5.jar
+

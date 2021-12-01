@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MainPanel">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:26px:grow"/>
+    <colspec value="fill:349px:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="-11" width="802" height="566"/>
+    </constraints>
+    <properties>
+      <background color="-1381654"/>
+      <foreground color="-1381654"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="8e5c9" layout-manager="FormLayout">
+        <rowspec value="center:57px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:40px:noGrow"/>
+        <rowspec value="top:156dlu:noGrow"/>
+        <colspec value="left:32dlu:noGrow"/>
+        <colspec value="fill:114px:noGrow"/>
+        <colspec value="left:65dlu:noGrow"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-1"/>
+          <preferredSize width="400" height="400"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="37249" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="22" style="1"/>
+              <foreground color="-12828863"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="150" height="60"/>
+              <text value="Login Form "/>
+            </properties>
+          </component>
+          <component id="e6f8d" class="javax.swing.JLabel" binding="registerLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-12828863"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="true"/>
+              <text value="Register"/>
+            </properties>
+          </component>
+          <component id="5e3ad" class="javax.swing.JLabel" binding="loginLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <background color="-16745473"/>
+              <font name="JetBrains Mono" size="16" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <opaque value="true"/>
+              <text value="Login"/>
+            </properties>
+          </component>
+          <grid id="8a990" binding="card" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9c99b" binding="login_panel" layout-manager="FormLayout">
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:50px:noGrow"/>
+                <rowspec value="center:48px:noGrow"/>
+                <rowspec value="center:48px:noGrow"/>
+                <colspec value="fill:236px:grow"/>
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="19e18" class="javax.swing.JTextField" binding="usernameTextField" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="1.0"/>
+                      <background color="-1"/>
+                      <font name="JetBrains Mono" size="14" style="0"/>
+                      <opaque value="false"/>
+                      <preferredSize width="89" height="35"/>
+                      <text value="  Username"/>
+                    </properties>
+                  </component>
+                  <component id="45d59" class="javax.swing.JButton" binding="loginButton">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <background color="-16745473"/>
+                      <font name="JetBrains Mono" size="14" style="1"/>
+                      <foreground color="-1"/>
+                      <opaque value="true"/>
+                      <preferredSize width="78" height="40"/>
+                      <text value="Login "/>
+                    </properties>
+                  </component>
+                  <component id="91511" class="javax.swing.JTextField" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="1.0"/>
+                      <background color="-1"/>
+                      <font name="JetBrains Mono" size="14" style="0"/>
+                      <opaque value="false"/>
+                      <preferredSize width="89" height="35"/>
+                      <text value="  Password"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="6275a" binding="register_panel" layout-manager="FormLayout">
+                <rowspec value="center:max(d;4px):noGrow"/>
+                <rowspec value="top:4dlu:noGrow"/>
+                <rowspec value="center:48px:noGrow"/>
+                <rowspec value="center:50px:noGrow"/>
+                <rowspec value="center:48px:noGrow"/>
+                <rowspec value="center:48px:noGrow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b7b77" class="javax.swing.JTextField" binding="usernameTextField2" default-binding="true">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="1.0"/>
+                      <font name="JetBrains Mono" size="14" style="0"/>
+                      <margin top="2" left="6" bottom="2" right="6"/>
+                      <minimumSize width="49" height="35"/>
+                      <preferredSize width="89" height="35"/>
+                      <selectionEnd value="9"/>
+                      <text value=" Username"/>
+                    </properties>
+                  </component>
+                  <component id="edb74" class="javax.swing.JTextField" binding="emailTextField" default-binding="true">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="1.0"/>
+                      <font name="JetBrains Mono" size="14" style="0"/>
+                      <preferredSize width="72" height="35"/>
+                      <selectionEnd value="8"/>
+                      <selectionStart value="8"/>
+                      <text value="  Email "/>
+                    </properties>
+                  </component>
+                  <component id="92984" class="javax.swing.JTextField" binding="passwordTextField" default-binding="true">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <forms defaultalign-horz="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentX value="1.0"/>
+                      <font name="JetBrains Mono" size="14" style="0"/>
+                      <preferredSize width="98" height="35"/>
+                      <text value="  Password "/>
+                    </properties>
+                  </component>
+                  <component id="f25fd" class="javax.swing.JButton" binding="register_button">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <background color="-16745473"/>
+                      <font name="JetBrains Mono" size="14" style="1"/>
+                      <foreground color="-1"/>
+                      <opaque value="true"/>
+                      <preferredSize width="80" height="40"/>
+                      <text value="Register "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="9f70b">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="ae351">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
